@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15EA61361AF88FF3007FD692 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15EA61351AF88FF3007FD692 /* main.m */; };
+		15EA61391AF88FF3007FD692 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 15EA61381AF88FF3007FD692 /* AppDelegate.m */; };
+		15EA613C1AF88FF3007FD692 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15EA613B1AF88FF3007FD692 /* ViewController.m */; };
+		15EA613F1AF88FF3007FD692 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15EA613D1AF88FF3007FD692 /* Main.storyboard */; };
+		15EA61411AF88FF3007FD692 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15EA61401AF88FF3007FD692 /* Images.xcassets */; };
+		15EA61441AF88FF3007FD692 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15EA61421AF88FF3007FD692 /* LaunchScreen.xib */; };
+		15EA61501AF88FF3007FD692 /* Apocalypse_CityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15EA614F1AF88FF3007FD692 /* Apocalypse_CityTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15EA614A1AF88FF3007FD692 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15EA61281AF88FF3007FD692 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15EA612F1AF88FF3007FD692;
+			remoteInfo = Apocalypse_City;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15EA61301AF88FF3007FD692 /* Apocalypse_City.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Apocalypse_City.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15EA61341AF88FF3007FD692 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15EA61351AF88FF3007FD692 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		15EA61371AF88FF3007FD692 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		15EA61381AF88FF3007FD692 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		15EA613A1AF88FF3007FD692 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		15EA613B1AF88FF3007FD692 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		15EA613E1AF88FF3007FD692 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		15EA61401AF88FF3007FD692 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		15EA61431AF88FF3007FD692 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		15EA61491AF88FF3007FD692 /* Apocalypse_CityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Apocalypse_CityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15EA614E1AF88FF3007FD692 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15EA614F1AF88FF3007FD692 /* Apocalypse_CityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Apocalypse_CityTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15EA612D1AF88FF3007FD692 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15EA61461AF88FF3007FD692 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15EA61271AF88FF3007FD692 = {
+			isa = PBXGroup;
+			children = (
+				15EA61321AF88FF3007FD692 /* Apocalypse_City */,
+				15EA614C1AF88FF3007FD692 /* Apocalypse_CityTests */,
+				15EA61311AF88FF3007FD692 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15EA61311AF88FF3007FD692 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15EA61301AF88FF3007FD692 /* Apocalypse_City.app */,
+				15EA61491AF88FF3007FD692 /* Apocalypse_CityTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15EA61321AF88FF3007FD692 /* Apocalypse_City */ = {
+			isa = PBXGroup;
+			children = (
+				15EA61371AF88FF3007FD692 /* AppDelegate.h */,
+				15EA61381AF88FF3007FD692 /* AppDelegate.m */,
+				15EA613A1AF88FF3007FD692 /* ViewController.h */,
+				15EA613B1AF88FF3007FD692 /* ViewController.m */,
+				15EA613D1AF88FF3007FD692 /* Main.storyboard */,
+				15EA61401AF88FF3007FD692 /* Images.xcassets */,
+				15EA61421AF88FF3007FD692 /* LaunchScreen.xib */,
+				15EA61331AF88FF3007FD692 /* Supporting Files */,
+			);
+			path = Apocalypse_City;
+			sourceTree = "<group>";
+		};
+		15EA61331AF88FF3007FD692 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				15EA61341AF88FF3007FD692 /* Info.plist */,
+				15EA61351AF88FF3007FD692 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		15EA614C1AF88FF3007FD692 /* Apocalypse_CityTests */ = {
+			isa = PBXGroup;
+			children = (
+				15EA614F1AF88FF3007FD692 /* Apocalypse_CityTests.m */,
+				15EA614D1AF88FF3007FD692 /* Supporting Files */,
+			);
+			path = Apocalypse_CityTests;
+			sourceTree = "<group>";
+		};
+		15EA614D1AF88FF3007FD692 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				15EA614E1AF88FF3007FD692 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15EA612F1AF88FF3007FD692 /* Apocalypse_City */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15EA61531AF88FF3007FD692 /* Build configuration list for PBXNativeTarget "Apocalypse_City" */;
+			buildPhases = (
+				15EA612C1AF88FF3007FD692 /* Sources */,
+				15EA612D1AF88FF3007FD692 /* Frameworks */,
+				15EA612E1AF88FF3007FD692 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Apocalypse_City;
+			productName = Apocalypse_City;
+			productReference = 15EA61301AF88FF3007FD692 /* Apocalypse_City.app */;
+			productType = "com.apple.product-type.application";
+		};
+		15EA61481AF88FF3007FD692 /* Apocalypse_CityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15EA61561AF88FF3007FD692 /* Build configuration list for PBXNativeTarget "Apocalypse_CityTests" */;
+			buildPhases = (
+				15EA61451AF88FF3007FD692 /* Sources */,
+				15EA61461AF88FF3007FD692 /* Frameworks */,
+				15EA61471AF88FF3007FD692 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15EA614B1AF88FF3007FD692 /* PBXTargetDependency */,
+			);
+			name = Apocalypse_CityTests;
+			productName = Apocalypse_CityTests;
+			productReference = 15EA61491AF88FF3007FD692 /* Apocalypse_CityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15EA61281AF88FF3007FD692 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Friday;
+				TargetAttributes = {
+					15EA612F1AF88FF3007FD692 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					15EA61481AF88FF3007FD692 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 15EA612F1AF88FF3007FD692;
+					};
+				};
+			};
+			buildConfigurationList = 15EA612B1AF88FF3007FD692 /* Build configuration list for PBXProject "Apocalypse_City" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15EA61271AF88FF3007FD692;
+			productRefGroup = 15EA61311AF88FF3007FD692 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15EA612F1AF88FF3007FD692 /* Apocalypse_City */,
+				15EA61481AF88FF3007FD692 /* Apocalypse_CityTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15EA612E1AF88FF3007FD692 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15EA613F1AF88FF3007FD692 /* Main.storyboard in Resources */,
+				15EA61441AF88FF3007FD692 /* LaunchScreen.xib in Resources */,
+				15EA61411AF88FF3007FD692 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15EA61471AF88FF3007FD692 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15EA612C1AF88FF3007FD692 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15EA613C1AF88FF3007FD692 /* ViewController.m in Sources */,
+				15EA61391AF88FF3007FD692 /* AppDelegate.m in Sources */,
+				15EA61361AF88FF3007FD692 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15EA61451AF88FF3007FD692 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15EA61501AF88FF3007FD692 /* Apocalypse_CityTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15EA614B1AF88FF3007FD692 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15EA612F1AF88FF3007FD692 /* Apocalypse_City */;
+			targetProxy = 15EA614A1AF88FF3007FD692 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		15EA613D1AF88FF3007FD692 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15EA613E1AF88FF3007FD692 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		15EA61421AF88FF3007FD692 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15EA61431AF88FF3007FD692 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15EA61511AF88FF3007FD692 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		15EA61521AF88FF3007FD692 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15EA61541AF88FF3007FD692 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Apocalypse_City/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		15EA61551AF88FF3007FD692 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Apocalypse_City/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		15EA61571AF88FF3007FD692 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Apocalypse_CityTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Apocalypse_City.app/Apocalypse_City";
+			};
+			name = Debug;
+		};
+		15EA61581AF88FF3007FD692 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Apocalypse_CityTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Apocalypse_City.app/Apocalypse_City";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15EA612B1AF88FF3007FD692 /* Build configuration list for PBXProject "Apocalypse_City" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15EA61511AF88FF3007FD692 /* Debug */,
+				15EA61521AF88FF3007FD692 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15EA61531AF88FF3007FD692 /* Build configuration list for PBXNativeTarget "Apocalypse_City" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15EA61541AF88FF3007FD692 /* Debug */,
+				15EA61551AF88FF3007FD692 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		15EA61561AF88FF3007FD692 /* Build configuration list for PBXNativeTarget "Apocalypse_CityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15EA61571AF88FF3007FD692 /* Debug */,
+				15EA61581AF88FF3007FD692 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15EA61281AF88FF3007FD692 /* Project object */;
+}
