@@ -26,13 +26,21 @@ int ID = 1;
     NSLog(@"wall %i created",wall.wallID);
 }
 
--(void) attackWall {
-    self.wallHP = self.wallHP - self.zombieCount;
-}
-
+//how do I assign zombies I created in zombie.m to a wall?
 -(void) assignZombies:(int *)hordeCount fromDirection:(int *)attackDirection {
     self.wallID = *(attackDirection);
     self.zombieCount = *(hordeCount);
 };
+
+
+//stuff I will need to use in the future
+-(void) attackWall {
+    self.wallHP = self.wallHP - self.zombieCount;
+}
+
+//-(void) repairWall {
+//    self.wallHP = self.wallHP + self.citizenCount;
+//}
+
 
 @end

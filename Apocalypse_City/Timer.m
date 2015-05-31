@@ -21,8 +21,8 @@
     
     if (number < 50) {
         //NSLog(@"Zombies are coming!");
-        zombieFactory *zombieEvent = [[zombieFactory alloc]init];
-        //self.zombies = [zombieEvent generateZombies];
+        zombie *zombieEvent = [[zombie alloc]init];
+        [zombieEvent generateZombies];
     }
     
 }

@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "zombieFactory.h"
+#import "zombie.h"
 
 @interface Timer : NSObject
 
