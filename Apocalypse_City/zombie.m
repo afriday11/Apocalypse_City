@@ -25,6 +25,9 @@
     
     newHorde.hordeNumber = zombieCount;
     newHorde.attackDirection = attackWall;
+
+    cityWall * newWall = [[cityWall alloc]init];
+    [newWall assignZombies:newHorde.hordeNumber fromDirection:newHorde.attackDirection];
     
     
     // Usefull information //

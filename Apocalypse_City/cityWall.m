@@ -30,6 +30,8 @@ int ID = 1;
 -(void) assignZombies:(int *)hordeCount fromDirection:(int *)attackDirection {
     self.wallID = *(attackDirection);
     self.zombieCount = *(hordeCount);
+    
+    //NSLog(@"%d, %d",self.wallID, self.zombieCount);
 };
 
 
