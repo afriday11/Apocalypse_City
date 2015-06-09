@@ -16,15 +16,17 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    //[self createInitialWalls];
+    //self.wallArray = [[NSMutableArray alloc]init];
     
-    [self worldTimer];
+    //initailize the timers, which will run the game
+    Timer *primaryTimer = [[Timer alloc]init];
+    [primaryTimer worldTimer];
+    [primaryTimer eventTimer];
     
-    int i = 0;
-    for (i = 0; i < 4; i++) {
-        cityWall * wall = [[cityWall alloc]init];
-        [wall createWall];
-    }
-    
+    //create the walls
+    cityWall * wall = [[cityWall alloc]init];
+    [wall createInitialWalls];
 }
 
 
@@ -39,6 +41,7 @@
     
     int number = arc4random_uniform(101);
     
+    //are we adding new zombies?
     if (number < 50) {
         
         zombie *newZombie = [[zombie alloc]init];
