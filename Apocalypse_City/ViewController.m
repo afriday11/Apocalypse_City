@@ -33,7 +33,7 @@
 //create the timer, which then calls the create event every second
 - (void) worldTimer
     {
-    NSTimer *timer = [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(createEvent) userInfo:nil repeats:YES];
+    [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(createEvent) userInfo:nil repeats:YES];
     }
 
 //create event will generate a random number to determin if any events are happening. If they are create event will call on various functions to create objects that effect the gameplay.

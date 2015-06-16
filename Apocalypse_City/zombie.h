@@ -11,8 +11,8 @@
 
 @interface zombie : NSObject
 
-@property (nonatomic) int hordeNumber;
-@property (nonatomic) int attackDirection;
+@property (strong, nonatomic) NSNumber * hordeNumber;
+@property (strong, nonatomic) NSNumber * attackDirection;
 
 
 -(void) generateZombies;

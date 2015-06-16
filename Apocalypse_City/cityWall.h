@@ -11,16 +11,17 @@
 
 @interface cityWall : NSObject
 
-@property (strong, nonatomic) NSString *wallName;
-@property (nonatomic) int wallID;
-@property (nonatomic) int baseHP;
-@property (nonatomic) int currentHP;
-@property (nonatomic) int zombieCount;
-@property (nonatomic) int defenderCount;
+@property (strong, nonatomic) NSString * wallName;
+@property (strong, nonatomic) NSNumber * wallID;
+@property (strong, nonatomic) NSNumber * baseHP;
+@property (strong, nonatomic) NSNumber * currentHP;
+@property (strong, nonatomic) NSNumber * zombieCount;
+@property (strong, nonatomic) NSNumber * defenderCount;
+@property (strong, nonatomic) NSNumber * numberOfWalls;
 
 //If I go to a more flexable xy system to build buildings I'll probably create a building class with x, y coordinates that cityWall will inherit.
-@property (nonatomic) int xDirection;
-@property (nonatomic) int yDirection;
+@property (strong, nonatomic) NSNumber * xDirection;
+@property (strong, nonatomic) NSNumber * yDirection;
 
 
 
@@ -34,6 +35,6 @@
 
 //-(void) createWall;
 
--(void) assignZombies: (int *)hordeCount fromDirection: (int *)attackDirection;
+-(void) assignZombies: (NSNumber *)hordeCount fromDirection: (NSNumber *)attackDirection;
 
 @end

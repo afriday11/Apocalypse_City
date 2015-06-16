@@ -14,14 +14,14 @@
     zombie *newHorde = [[zombie alloc]init];
     
     //create a random number of zombies
-    int zombieCount = arc4random_uniform(25);
+    NSNumber * zombieCount = [NSNumber numberWithFloat:arc4random_uniform(25)];
     
     //which wall are they going to attack?
     //for now I am assigning them a number which corralates to a wall
-    int attackWall = arc4random_uniform(5) + 1;
+    NSNumber * attackWall = [NSNumber numberWithFloat:arc4random_uniform(4)];
     
     //print out all info on the zombies
-    NSLog(@"%i zombies are attacking wall number %i",zombieCount, attackWall);
+    NSLog(@"%@ zombies are attacking wall number %@",zombieCount, attackWall);
     
     newHorde.hordeNumber = zombieCount;
     newHorde.attackDirection = attackWall;

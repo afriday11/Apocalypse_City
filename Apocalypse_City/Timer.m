@@ -13,7 +13,7 @@
 - (void) worldTimer{
     //this is the game's main timer. this fires every few seconds and controls minor events such as updating the health of the walls.
     //Also, what can I do about the "Uused variable 'timer'" message? The NSTimer is working how I want it, so I don't really see what is the problem.
-    NSTimer *timer = [NSTimer scheduledTimerWithTimeInterval:5.0 target:self selector:@selector(worldEvent) userInfo:nil repeats:YES];
+    [NSTimer scheduledTimerWithTimeInterval:5.0 target:self selector:@selector(worldEvent) userInfo:nil repeats:YES];
     
 }
 
@@ -24,7 +24,7 @@
 
 
 - (void) eventTimer {
-    NSTimer *timer = [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(createEvent) userInfo:nil repeats:YES];
+    [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(createEvent) userInfo:nil repeats:YES];
 }
 
 - (void) createEvent {
