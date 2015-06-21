@@ -16,6 +16,7 @@
 		15EA61441AF88FF3007FD692 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15EA61421AF88FF3007FD692 /* LaunchScreen.xib */; };
 		15EA61501AF88FF3007FD692 /* Apocalypse_CityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15EA614F1AF88FF3007FD692 /* Apocalypse_CityTests.m */; };
 		15EA615E1AF89079007FD692 /* Timer.m in Sources */ = {isa = PBXBuildFile; fileRef = 15EA615D1AF89079007FD692 /* Timer.m */; };
+		15EC3EE11B3673A3003F2FC3 /* exampleCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 15EC3EE01B3673A3003F2FC3 /* exampleCode.m */; };
 		15F2FD941B117ED900BA7E02 /* cityWall.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F2FD931B117ED900BA7E02 /* cityWall.m */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +48,8 @@
 		15EA614F1AF88FF3007FD692 /* Apocalypse_CityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Apocalypse_CityTests.m; sourceTree = "<group>"; };
 		15EA615C1AF89079007FD692 /* Timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Timer.h; sourceTree = "<group>"; };
 		15EA615D1AF89079007FD692 /* Timer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Timer.m; sourceTree = "<group>"; };
+		15EC3EDF1B3673A3003F2FC3 /* exampleCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = exampleCode.h; sourceTree = "<group>"; };
+		15EC3EE01B3673A3003F2FC3 /* exampleCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = exampleCode.m; sourceTree = "<group>"; };
 		15F2FD921B117ED900BA7E02 /* cityWall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cityWall.h; sourceTree = "<group>"; };
 		15F2FD931B117ED900BA7E02 /* cityWall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cityWall.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -96,6 +99,8 @@
 				15EA615D1AF89079007FD692 /* Timer.m */,
 				15F2FD921B117ED900BA7E02 /* cityWall.h */,
 				15F2FD931B117ED900BA7E02 /* cityWall.m */,
+				15EC3EDF1B3673A3003F2FC3 /* exampleCode.h */,
+				15EC3EE01B3673A3003F2FC3 /* exampleCode.m */,
 				159E18A31B08602400E59E61 /* zombie.h */,
 				159E18A41B08602400E59E61 /* zombie.m */,
 				15EA613D1AF88FF3007FD692 /* Main.storyboard */,
@@ -240,6 +245,7 @@
 				15EA61361AF88FF3007FD692 /* main.m in Sources */,
 				15EA615E1AF89079007FD692 /* Timer.m in Sources */,
 				159E18A51B08602400E59E61 /* zombie.m in Sources */,
+				15EC3EE11B3673A3003F2FC3 /* exampleCode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

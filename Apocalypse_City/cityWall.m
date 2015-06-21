@@ -10,21 +10,6 @@
 
 @implementation cityWall
 
-//NSNumber * zombieCount = [NSNumber numberWithFloat:arc4random_uniform(25)];
-
-//NSNumber * ID = [NSNumber numberWithFloat:1];
-//int i = 1;
-
-- (id)init {
-    self = [super init];
-    if (self) {
-        // Initialization code here.
-
-    }
-    
-    return self;
-}
-
 -(void) createInitialWalls{
     int ID = 1;
     
@@ -47,6 +32,7 @@
 }
 
 //I started to try to create walls and then add them to an array. I'm not sure if this is the most flexable way to set up the walls. Later on if I want to create a more flexable wall system, it might be better to set up a matrix so the user can create different wall configurations based off of the size of their city. For now though, I just want to get the system up and running.
+
 -(NSMutableArray *) createWalls {
     int ID = 1;
     
@@ -64,8 +50,6 @@
         wall.zombieCount = 0;
         
         NSLog(@"wall %@ created",wall.wallID);
-        
-        // [cityWall.wallsArray addObject:self];
     };
     
     return wallsArray;
@@ -86,12 +70,15 @@
     
     //this should iterate by the total number of walls. I'll update later.
     for (int i = 1; i <= 5; i ++) {
-        cityWall *wall = [[cityWall alloc]init];
-        wall.wallID = @(i);
-
-        wall.currentHP = [NSNumber numberWithFloat:([wall.currentHP integerValue] - [wall.zombieCount integerValue])];
-        //wall.currentHP = wall.currentHP - wall.zombieCount;
-        NSLog(@"Wall %@ HP = %@",self.wallID, self.currentHP);
+        
+        
+        
+//        cityWall *wall = [[cityWall alloc]init];
+//        wall.wallID = @(i);
+//
+//        wall.currentHP = [NSNumber numberWithFloat:([wall.currentHP integerValue] - [wall.zombieCount integerValue])];
+//        //wall.currentHP = wall.currentHP - wall.zombieCount;
+//        NSLog(@"Wall %@ HP = %@",self.wallID, self.currentHP);
         
     }
     
