@@ -10,6 +10,20 @@
 
 @implementation zombie
 
+-(id) init{
+    if (self = [super init]){
+        self.hordeNumber = [NSNumber numberWithFloat:arc4random_uniform(25)];
+        self.attackDirection = [NSNumber numberWithFloat:arc4random_uniform(5)];
+    }
+    return self;
+}
+
+-(void) assignZombies: (NSNumber *)hordeCount fromDirection:(NSNumber *)attackDirection {
+    //what to do here...
+    hordeCount
+}
+
+
 -(void) generateZombies {
     zombie *newHorde = [[zombie alloc]init];
     
@@ -21,7 +35,7 @@
     NSNumber * attackWall = [NSNumber numberWithFloat:arc4random_uniform(4)];
     
     //print out all info on the zombies
-    NSLog(@"%@ zombies are attacking wall number %@",zombieCount, attackWall);
+    //NSLog(@"%@ zombies are attacking wall number %@",zombieCount, attackWall);
     
     newHorde.hordeNumber = zombieCount;
     newHorde.attackDirection = attackWall;

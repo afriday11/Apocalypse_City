@@ -10,6 +10,7 @@
 #import "cityWall.h"
 #import "zombie.h"
 #import "Timer.h"
+#import "cityWallController.h"
 //#import "zombieFactory.h"
 
 @interface ViewController : UIViewController

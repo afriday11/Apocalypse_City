@@ -19,22 +19,12 @@
 @property (strong, nonatomic) NSNumber * defenderCount;
 @property (strong, nonatomic) NSNumber * numberOfWalls;
 
-//If I go to a more flexable xy system to build buildings I'll probably create a building class with x, y coordinates that cityWall will inherit.
-@property (strong, nonatomic) NSNumber * xDirection;
-@property (strong, nonatomic) NSNumber * yDirection;
+@property (nonatomic) int IDNumber;
+
+@property (strong, nonatomic) NSMutableArray * outsideWall;
+@property (strong, nonatomic) NSMutableArray * insideWall;
 
 
-
-//method that creates the array of wall objects. Right now I am using the createInitialWalls method
--(NSMutableArray *)createWalls;
-@property (strong, nonatomic) NSMutableArray *wallArray;
-
--(void) createInitialWalls;
-
--(void) attackWall;
-
-//-(void) createWall;
-
--(void) assignZombies: (NSNumber *)hordeCount fromDirection: (NSNumber *)attackDirection;
+//-(void) assignZombies: (NSNumber *)hordeCount fromDirection: (NSNumber *)attackDirection;
 
 @end

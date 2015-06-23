@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "zombie.h"
 #import "cityWall.h"
+#import "cityWallController.h"
 
 @interface Timer : NSObject
 

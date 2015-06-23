@@ -16,17 +16,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    //[self createInitialWalls];
-    //self.wallArray = [[NSMutableArray alloc]init];
     
     //initailize the timers, which will run the game
     Timer *primaryTimer = [[Timer alloc]init];
     [primaryTimer worldTimer];
     [primaryTimer eventTimer];
     
-    //create the walls
-    cityWall * wall = [[cityWall alloc]init];
-    [wall createInitialWalls];
+    cityWallController * wallController = [[cityWallController alloc]init];
+    [wallController createInitialWalls];
 }
 
 

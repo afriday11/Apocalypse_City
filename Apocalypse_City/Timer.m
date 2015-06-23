@@ -18,8 +18,9 @@
 }
 
 - (void) worldEvent {
-    cityWall * newWall = [[cityWall alloc]init];
-    [newWall attackWall];
+//    cityWall * newWall = [[cityWall alloc]init];
+//    [newWall attackWall];
+//    [cityWallController init];
 }
 
 
