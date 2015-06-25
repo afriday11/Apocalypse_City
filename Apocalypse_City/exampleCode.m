@@ -10,6 +10,13 @@
 
 @implementation exampleCode
 
+//so fucking simple, but important. Don't forget [x intValue]
+//[zombieObject.hordeNumber intValue]
+
+//[[wallArray objectAtIndex:] addObject:obj];
+//[[array objectAtIndex:i] insertObject:obj atIndex:j];
+//[[array objectAtIndex:i] replaceObjectAtIndex:j withObject:obj];
+
 ////Create another car
 //Car *prius = [[Car alloc] init];
 //prius.brandName = @"Toyota";
@@ -89,6 +96,15 @@
 //    //NSLog(@"%i, %i", self.zombieCount, self.wallID);
 //};
 //
+
+
+//    NSEnumerator *enumerator = [self.wallArray objectEnumerator];
+//    id anObject = zombieObject.attackDirection;
+//    while (anObject = [enumerator nextObject]) {
+//        [nextObject addObject:zombieObject.hordeNumber];
+//    }
+
+
 //
 ////this is the thing that is holding me back now
 ////how do I access the walls and lower their health? I've tried a bunch of stuff, but this is the only way that doesn't crash the program. The only problem is that it is creating a new wall, instead of accessing the already created walls.

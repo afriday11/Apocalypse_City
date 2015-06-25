@@ -17,26 +17,29 @@
 
 -(void) createInitialWalls
 {
+    self.wallArray = [[NSMutableArray alloc] initWithCapacity:11];
+    
     for (int i = 0; i < 5; i++) {
         cityWall *wall = [[cityWall alloc]init];
-        [self.wallArray addObject:wall];
+        [_wallArray addObject:wall];
         NSLog(@"wall %@ created",wall.wallID);
     }
 }
 
 -(void) generateZombies {
     zombie *zombieObject = [[zombie alloc]init];
-    [zombieObject assignZombies:zombieObject.hordeNumber fromDirection:zombieObject.attackDirection];
 
-}
+    //Tried to add zombies to the outside wall array of the correct wall. but am having trouble with nested arrays/
+     [[self.wallArray objectAtIndex:[zombieObject.attackDirection intValue]] addObject:[NSNumber numberWithInt:([zombieObject.hordeNumber intValue])]];
 
-//-(void) assignZombies:(NSNumber *)hordeCount fromDirection:(NSNumber *)attackDirection {
--(void) assignZombies: (NSNumber *)hordeCount fromDirection:(NSNumber *)attackDirection {
-    [cityWall ]
+    [[[self.wallArray objectAtIndex:[zombieObject.attackDirection intValue]] isEqualToString:[NSString @"outsideWall"] addObject:[NSNumber numberWithFloat:zombieObject.hordeNumber]];
     
+     
+    
+    //[[wallArray objectAtIndex:] addObject:obj];
+    //[zombieObject assignZombies:zombieObject.hordeNumber fromDirection:zombieObject.attackDirection];
+
 }
-
-
 
 
 @end
