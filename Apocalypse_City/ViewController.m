@@ -24,29 +24,7 @@
     
     cityWallController * wallController = [[cityWallController alloc]init];
     [wallController createInitialWalls];
-}
-
-
-//create the timer, which then calls the create event every second
-- (void) worldTimer
-    {
-    [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(createEvent) userInfo:nil repeats:YES];
-    }
-
-//create event will generate a random number to determin if any events are happening. If they are create event will call on various functions to create objects that effect the gameplay.
-- (void) createEvent {
-    
-    int number = arc4random_uniform(101);
-    
-    //are we adding new zombies?
-    if (number < 50) {
-        
-        zombie *newZombie = [[zombie alloc]init];
-        [newZombie generateZombies];
-        
-    }
-    
-    
+    [wallController worldTimer];
 }
 
 - (void)didReceiveMemoryWarning {

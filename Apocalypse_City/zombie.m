@@ -12,7 +12,7 @@
 
 -(id) init{
     if (self = [super init]){
-        self.hordeNumber = [NSNumber numberWithFloat:arc4random_uniform(25)];
+        //self.hordeNumber = [NSNumber numberWithFloat:arc4random_uniform(25)];
         self.attackDirection = [NSNumber numberWithInt:arc4random_uniform(5)];
     }
     return self;

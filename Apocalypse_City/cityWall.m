@@ -16,8 +16,6 @@ int IDNumber = 1;
     // how can a thing be equal to sending super and init?
     // thes this mean, if the parent class has been initialized, do said actions?
     if (self = [super init]){
-        //cityWall *wall = [[cityWall alloc]init];
-        
         self.baseHP = [NSNumber numberWithInt:100];
         self.currentHP = [NSNumber numberWithInt:100];
         self.defenderCount = [NSNumber numberWithInt:0];

@@ -104,6 +104,21 @@
 //        [nextObject addObject:zombieObject.hordeNumber];
 //    }
 
+//-(void) generateZombies {
+//    zombie *zombieObject = [[zombie alloc]init];
+//
+//    //Tried to add zombies to the outside wall array of the correct wall. but am having trouble with nested arrays/
+//     [[self.wallArray objectAtIndex:[zombieObject.attackDirection intValue]] addObject:[NSNumber numberWithInt:([zombieObject.hordeNumber intValue])]];
+//
+//    //[[[self.wallArray objectAtIndex:[zombieObject.attackDirection intValue]] isEqualToString:[NSString @"outsideWall"] addObject:[NSNumber numberWithFloat:zombieObject.hordeNumber]];
+//
+//
+//
+//    //[[wallArray objectAtIndex:] addObject:obj];
+//    //[zombieObject assignZombies:zombieObject.hordeNumber fromDirection:zombieObject.attackDirection];
+//
+//}
+
 
 //
 ////this is the thing that is holding me back now
@@ -131,5 +146,10 @@
 ////-(void) repairWall {
 ////    self.wallHP = self.wallHP + self.citizenCount;
 ////}
+
+
+
+
+
 
 @end

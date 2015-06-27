@@ -98,14 +98,10 @@
 			children = (
 				15EA613A1AF88FF3007FD692 /* ViewController.h */,
 				15EA613B1AF88FF3007FD692 /* ViewController.m */,
-				15EA615C1AF89079007FD692 /* Timer.h */,
-				15EA615D1AF89079007FD692 /* Timer.m */,
-				15F2FD921B117ED900BA7E02 /* cityWall.h */,
-				15F2FD931B117ED900BA7E02 /* cityWall.m */,
 				15EC3EE21B374674003F2FC3 /* cityWallController.h */,
 				15EC3EE31B374674003F2FC3 /* cityWallController.m */,
-				15EC3EDF1B3673A3003F2FC3 /* exampleCode.h */,
-				15EC3EE01B3673A3003F2FC3 /* exampleCode.m */,
+				15F2FD921B117ED900BA7E02 /* cityWall.h */,
+				15F2FD931B117ED900BA7E02 /* cityWall.m */,
 				159E18A31B08602400E59E61 /* zombie.h */,
 				159E18A41B08602400E59E61 /* zombie.m */,
 				15EA613D1AF88FF3007FD692 /* Main.storyboard */,
@@ -119,6 +115,10 @@
 		15EA61331AF88FF3007FD692 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				15EC3EDF1B3673A3003F2FC3 /* exampleCode.h */,
+				15EC3EE01B3673A3003F2FC3 /* exampleCode.m */,
+				15EA615C1AF89079007FD692 /* Timer.h */,
+				15EA615D1AF89079007FD692 /* Timer.m */,
 				15EA61371AF88FF3007FD692 /* AppDelegate.h */,
 				15EA61381AF88FF3007FD692 /* AppDelegate.m */,
 				15EA61341AF88FF3007FD692 /* Info.plist */,

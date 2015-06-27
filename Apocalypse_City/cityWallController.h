@@ -13,8 +13,9 @@
 
 @property (strong, nonatomic) NSMutableArray *wallArray;
 
+//initializers
 -(void) createInitialWalls;
 -(void) generateZombies;
--(void) assignZombies: (NSNumber *)hordeCount fromDirection:(NSNumber *)attackDirection;
+-(void) worldTimer;
 
 @end

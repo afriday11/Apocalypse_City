@@ -15,8 +15,4 @@
 @property (strong, nonatomic) NSNumber * hordeNumber;
 @property (strong, nonatomic) NSNumber * attackDirection;
 
-
--(void) generateZombies;
--(void) assignZombies: (NSNumber *)hordeCount fromDirection:(NSNumber *)attackDirection;
-
 @end
