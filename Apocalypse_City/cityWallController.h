@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "cityWall.h"
+#import "citizen.h"
 
 @interface cityWallController : NSObject
 
@@ -16,6 +17,10 @@
 //initializers
 -(void) createInitialWalls;
 -(void) generateZombies;
+-(void) generateCitizens;
+
 -(void) worldTimer;
+
+-(void) attackWalls;
 
 @end

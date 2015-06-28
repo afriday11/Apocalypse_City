@@ -26,6 +26,7 @@
     }
 }
 
+#pragma object generate events
 -(void) generateZombies {
     
     zombie *zombieObject = [[zombie alloc]init];
@@ -35,10 +36,19 @@
     
     //now simply access the array in the targetWall object and add the zombie object in it. Whatever you want to do with the horde can be done by extracting any particular zombie object or while you loop through the outsideWall of this particular wall to check status of each zombie object
     [[targetWall outsideWall] addObject:zombieObject];
-    [[targetWall outsideWall] addObject:@"1"];
 
-    NSLog(@"%@", [targetWall outsideWall]);
+    //NSLog(@"%@", zombieObject.attackDirection);
+    //NSLog(@"%@", [targetWall outsideWall]);
+    
 }
+
+-(void) generateCitizens {
+    
+    citizen *citizenObject = [[citizen alloc]init];
+    
+    NSLog(@"Attack power for new citizen is %@, HP is %@, and repair power is %@", citizenObject.attackPower, citizenObject.currentHP, citizenObject.repairPower);
+}
+
 
 
 //not sure if timers should go here, but I'd like to get them working first
@@ -53,13 +63,36 @@
 
 //this will generate zombies and heal fences
 - (void) worldEvent {
-    //add probability for zombies to be generated
-    [self generateZombies];
+
+    int randomNumber = arc4random_uniform(100);
+    
+    if (randomNumber < 99) {
+        [self generateZombies];
+    }
+    
+    if (randomNumber < 99){
+        [self generateCitizens];
+    }
+    
     //repair function
 }
 
 
 
+
+
+#pragma object action events
+
+-(void) attackWalls {
+    
+    for (int i; i < 6; i++) {
+        cityWall *targetWall = [self.wallArray objectAtIndex:i];
+        
+        //NSNumber * attack = [NSNumber numberWithDouble:targetWall.outsideWall.count];
+        
+        //targetWall.currentHP = [NSNumber numberWithLong:([targetWall.currentHP integerValue] - [attack integerValue]);
+    }
+}
 
 
 

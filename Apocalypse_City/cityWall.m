@@ -22,6 +22,9 @@ int IDNumber = 1;
         self.zombieCount = [NSNumber numberWithInt:0];
         self.wallID = [NSNumber numberWithInt:(IDNumber)];
         
+        self.outsideWall = [[NSMutableArray alloc] initWithCapacity:100];
+        self.insideWall = [[NSMutableArray alloc] initWithCapacity:100];
+        
         //[self.wallArray addObject:wall];
         IDNumber = IDNumber + 1;
     }
