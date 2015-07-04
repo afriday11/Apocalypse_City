@@ -32,4 +32,11 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void) updateDisplayTextField
+{
+    
+//    self.displayWallField.text =
+//    [self.calc printNumbers];
+}
+
 @end

@@ -15,6 +15,8 @@
 
 @interface ViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UITextField *displayWallField;
+
 
 @end
 
